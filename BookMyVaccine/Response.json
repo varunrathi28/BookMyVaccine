@@ -1,0 +1,176 @@
+{
+    "centers": [
+        {
+            "center_id": 692599,
+            "name": "CCS UNIVERSITY HOSPIT 18 TO 44",
+            "state_name": "Uttar Pradesh",
+            "district_name": "Meerut",
+            "block_name": "Medical PPC",
+            "pincode": 250004,
+            "lat": 28,
+            "long": 77,
+            "from": "12:00:00",
+            "to": "17:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "8288af1b-edc1-40a6-94df-0c6d7fa9ddc9",
+                    "date": "01-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 18,
+                    "vaccine": "",
+                    "slots": [
+                        "12:00PM-01:00PM",
+                        "01:00PM-02:00PM",
+                        "02:00PM-03:00PM",
+                        "03:00PM-05:00PM"
+                    ]
+                }
+            ]
+        },
+        {
+            "center_id": 560136,
+            "name": "UPHC KASERU BAXER",
+            "state_name": "Uttar Pradesh",
+            "district_name": "Meerut",
+            "block_name": "Rajpura",
+            "pincode": 250004,
+            "lat": 29,
+            "long": 78,
+            "from": "09:00:00",
+            "to": "17:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "6015aa14-0081-4c28-a377-321ee5b40fdb",
+                    "date": "03-05-2021",
+                    "available_capacity": 97,
+                    "min_age_limit": 45,
+                    "vaccine": "",
+                    "slots": [
+                        "09:00AM-11:00AM",
+                        "11:00AM-01:00PM",
+                        "01:00PM-03:00PM",
+                        "03:00PM-05:00PM"
+                    ]
+                }
+            ]
+        },
+        {
+            "center_id": 569386,
+            "name": "CHC BHAWANPUR",
+            "state_name": "Uttar Pradesh",
+            "district_name": "Meerut",
+            "block_name": "Rajpura",
+            "pincode": 250004,
+            "lat": 28,
+            "long": 77,
+            "from": "09:00:00",
+            "to": "17:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "58e974c9-8112-4748-b000-30714520cc60",
+                    "date": "03-05-2021",
+                    "available_capacity": 150,
+                    "min_age_limit": 45,
+                    "vaccine": "",
+                    "slots": [
+                        "09:00AM-11:00AM",
+                        "11:00AM-01:00PM",
+                        "01:00PM-03:00PM",
+                        "03:00PM-05:00PM"
+                    ]
+                }
+            ]
+        },
+        {
+            "center_id": 560159,
+            "name": "PHC Rajpura.",
+            "state_name": "Uttar Pradesh",
+            "district_name": "Meerut",
+            "block_name": "Rajpura",
+            "pincode": 250004,
+            "lat": 29,
+            "long": 77,
+            "from": "09:00:00",
+            "to": "17:00:00",
+            "fee_type": "Free",
+            "sessions": [
+                {
+                    "session_id": "85e84c95-1d33-4197-bae7-437375f9731f",
+                    "date": "03-05-2021",
+                    "available_capacity": 100,
+                    "min_age_limit": 18,
+                    "vaccine": "",
+                    "slots": [
+                        "09:00AM-11:00AM",
+                        "11:00AM-01:00PM",
+                        "01:00PM-03:00PM",
+                        "03:00PM-05:00PM"
+                    ]
+                }
+            ]
+        },
+        {
+            "center_id": 629800,
+            "name": "NUTEMA HOSPITAL",
+            "state_name": "Uttar Pradesh",
+            "district_name": "Meerut",
+            "block_name": "Meerut",
+            "pincode": 250004,
+            "lat": 28,
+            "long": 77,
+            "from": "12:00:00",
+            "to": "16:00:00",
+            "fee_type": "Paid",
+            "sessions": [
+                {
+                    "session_id": "9e1fe189-4fb8-43de-955c-e3b12d6137db",
+                    "date": "03-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "12:00PM-01:00PM",
+                        "01:00PM-02:00PM",
+                        "02:00PM-03:00PM",
+                        "03:00PM-04:00PM"
+                    ]
+                },
+                {
+                    "session_id": "e97e5653-ac4d-4cda-beb9-764c98deeb90",
+                    "date": "04-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "12:00PM-01:00PM",
+                        "01:00PM-02:00PM",
+                        "02:00PM-03:00PM",
+                        "03:00PM-04:00PM"
+                    ]
+                },
+                {
+                    "session_id": "9ced6b53-ebf4-4eff-8892-a4ffc84242e4",
+                    "date": "05-05-2021",
+                    "available_capacity": 0,
+                    "min_age_limit": 45,
+                    "vaccine": "COVISHIELD",
+                    "slots": [
+                        "12:00PM-01:00PM",
+                        "01:00PM-02:00PM",
+                        "02:00PM-03:00PM",
+                        "03:00PM-04:00PM"
+                    ]
+                }
+            ],
+            "vaccine_fees": [
+                {
+                    "vaccine": "COVISHIELD",
+                    "fee": "250"
+                }
+            ]
+        }
+    ]
+}
