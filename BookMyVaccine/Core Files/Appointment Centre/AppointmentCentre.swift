@@ -9,11 +9,11 @@ import Foundation
 
 public class AppointmentCentre {
     
-    let apiClient:APIClient
+    let apiClient:AppointmentAPIClient
     let validator: AppointmentValidator
     let notfier:AppointmentNotifier
     
-    init(_ apiClient: APIClient, _ validator:AppointmentValidator, _ notifier:AppointmentNotifier) {
+    init(_ apiClient: AppointmentAPIClient, _ validator:AppointmentValidator, _ notifier:AppointmentNotifier) {
         self.apiClient = apiClient
         self.notfier = notifier
         self.validator = validator

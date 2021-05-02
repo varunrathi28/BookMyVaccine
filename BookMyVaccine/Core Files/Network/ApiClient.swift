@@ -9,7 +9,7 @@ import Foundation
 
 
 
-class APIClient : GenericNetworkClient{
+class AppointmentAPIClient : GenericNetworkClient{
     let parser: AppointmentResponseParser
     let parameterConfig:ParameterConfig
     init(_ parser: AppointmentResponseParser, config:ParameterConfig = ParameterConfig()) {
