@@ -8,7 +8,7 @@
 import Foundation
 
 
-class GenericNetworkClient {
+public class GenericNetworkClient {
     
     
     open func hitNetworkRequest(url : URL, with params:[String:String]?, _ completion:

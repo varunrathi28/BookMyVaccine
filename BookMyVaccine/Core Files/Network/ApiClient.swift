@@ -9,7 +9,7 @@ import Foundation
 
 
 
-class AppointmentAPIClient : GenericNetworkClient{
+ class AppointmentAPIClient : GenericNetworkClient{
     let parser: AppointmentResponseParser
     let parameterConfig:ParameterConfig
     init(_ parser: AppointmentResponseParser, config:ParameterConfig = ParameterConfig()) {
@@ -31,24 +31,9 @@ class AppointmentAPIClient : GenericNetworkClient{
             
             let validResponse = self.parser.parse(data)
             let string = String(data: data, encoding: .utf8)
-            print(string)
             completion?(validResponse)
         }
     }
-    
-//    private func hitNetworkRequest(url : URL, with params:[String:String], _ completion:
-//                                    ((AppointmentResponse?)  ->Void)? ) {
-//        let session = URLSession.shared
-//        let urlRequest = URLRequest(url: url)
-//        let sessionTask = session.dataTask(with: urlRequest) { (data, response, error) in
-//            guard let data = data else { return }
-//            let validResponse = self.parser.parse(data)
-//            let string = String(data: data, encoding: .utf8)
-//            print(string)
-//            completion?(validResponse)
-//        }
-//        sessionTask.resume()
-//    }
     
     private func getEncodedAppointmentURL(for searchType:SearchByType, with params:[String:String]) -> URL? {
         var baseUrl = URLConstants.baseURL

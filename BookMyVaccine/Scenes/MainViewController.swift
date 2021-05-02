@@ -48,7 +48,7 @@ class MainViewController: UIViewController {
         let notifier = AppointmentNotifier()
         let validator = AppointmentValidator()
         let crawlConfig = ParameterConfig()
-        let apiClient = APIClient(parser, config: crawlConfig)
+        let apiClient = AppointmentAPIClient(parser, config: crawlConfig)
         self.appointmentChecker = AppointmentCentre(apiClient, validator, notifier)
     }
     func startCrawling(){
