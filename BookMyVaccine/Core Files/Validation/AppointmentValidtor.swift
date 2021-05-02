@@ -9,7 +9,7 @@ import Foundation
 
 public struct  AppointmentValidator {
     
-    func checkApointments(_ response:AppointmentResponse, filter sessionFilterBlock : ((SessionInfo) -> Bool)) -> [VaccineCentre]{
+    func validateApointments(_ response:AppointmentResponse, satisfying sessionFilterBlock : ((SessionInfo) -> Bool)) -> [VaccineCentre]{
         
         var eligibleCentres = [VaccineCentre]()
         for centre in response.centers {

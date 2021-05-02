@@ -20,13 +20,14 @@ public class AppointmentCentre {
     }
     
    @objc func checkAppointments() {
-    let body = VaccineCrawlerConfig.body
-        self.apiClient.checkForAvailableSessions(body) { [weak self] (data) in
+    let selectedSearchType = PreferenceManager().getSavedPreferences().searchType
+    self.apiClient.checkForAvailableSessions(searchBy: selectedSearchType)
+        { [weak self] (data) in
             guard let self = self else { return }
                
             if let validResponse = data {
-               let availableCentres = self.validator.checkApointments(validResponse) {
-                $0.min_age_limit == VaccineCrawlerConfig.minAge && $0.available_capacity > VaccineCrawlerConfig.minCapacityThreshold
+               let availableCentres = self.validator.validateApointments(validResponse) {
+                $0.min_age_limit == ConfigConstants.minAge && $0.available_capacity > ConfigConstants.minCapacityThreshold
                 }
                 if !availableCentres.isEmpty {
                     self.notfier.notify(for: availableCentres)
@@ -35,6 +36,4 @@ public class AppointmentCentre {
         }
     
     }
-    
-    
 }
