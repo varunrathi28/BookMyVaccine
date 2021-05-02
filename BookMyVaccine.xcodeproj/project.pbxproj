@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3775708F263E42AA0089BDA5 /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3775708E263E42AA0089BDA5 /* States.swift */; };
+		37757093263E43620089BDA5 /* StateResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37757092263E43620089BDA5 /* StateResponseParser.swift */; };
+		37757097263E44080089BDA5 /* Parseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37757096263E44080089BDA5 /* Parseable.swift */; };
+		3775709A263E44B50089BDA5 /* LocationAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37757099263E44B50089BDA5 /* LocationAPIClient.swift */; };
+		3775709D263E44C90089BDA5 /* GenericNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3775709C263E44C90089BDA5 /* GenericNetworkClient.swift */; };
+		377570A0263E54180089BDA5 /* District.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3775709F263E54180089BDA5 /* District.swift */; };
+		377570A3263E547D0089BDA5 /* DistrictResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377570A2263E547D0089BDA5 /* DistrictResponseParser.swift */; };
+		377570A7263EF32A0089BDA5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377570A6263EF32A0089BDA5 /* Extensions.swift */; };
 		3776063B263D8C8200A3E55F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3776063A263D8C8200A3E55F /* AppDelegate.swift */; };
 		3776063D263D8C8300A3E55F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3776063C263D8C8300A3E55F /* SceneDelegate.swift */; };
 		3776063F263D8C8300A3E55F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3776063E263D8C8300A3E55F /* ViewController.swift */; };
@@ -21,11 +29,24 @@
 		3776065F263D9A7200A3E55F /* AppointmentNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3776065E263D9A7200A3E55F /* AppointmentNotifier.swift */; };
 		37760663263D9BF300A3E55F /* AppointmentCentre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37760662263D9BF300A3E55F /* AppointmentCentre.swift */; };
 		378913D5263DA68100D66A92 /* Response.json in Resources */ = {isa = PBXBuildFile; fileRef = 378913D4263DA68100D66A92 /* Response.json */; };
-		378913D8263DAAB200D66A92 /* CralwerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378913D7263DAAB200D66A92 /* CralwerConfig.swift */; };
-		378913DE263DB27B00D66A92 /* NotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378913DD263DB27B00D66A92 /* NotificationDelegate.swift */; };
+		378913D8263DAAB200D66A92 /* APIParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378913D7263DAAB200D66A92 /* APIParams.swift */; };
+		378913E7263DC19D00D66A92 /* ChildViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378913E6263DC19D00D66A92 /* ChildViewcontroller.swift */; };
+		378913EB263DC1B100D66A92 /* customView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378913EA263DC1B100D66A92 /* customView.swift */; };
+		3789140D263DDEE200D66A92 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3789140C263DDEE200D66A92 /* Constants.swift */; };
+		37891414263DE65F00D66A92 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37891413263DE65F00D66A92 /* ConfigViewController.swift */; };
+		37891419263DEB2C00D66A92 /* PreferenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37891418263DEB2C00D66A92 /* PreferenceManager.swift */; };
+		3789141C263E002700D66A92 /* AlarmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3789141B263E002700D66A92 /* AlarmController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3775708E263E42AA0089BDA5 /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		37757092263E43620089BDA5 /* StateResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateResponseParser.swift; sourceTree = "<group>"; };
+		37757096263E44080089BDA5 /* Parseable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parseable.swift; sourceTree = "<group>"; };
+		37757099263E44B50089BDA5 /* LocationAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAPIClient.swift; sourceTree = "<group>"; };
+		3775709C263E44C90089BDA5 /* GenericNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericNetworkClient.swift; sourceTree = "<group>"; };
+		3775709F263E54180089BDA5 /* District.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = District.swift; sourceTree = "<group>"; };
+		377570A2263E547D0089BDA5 /* DistrictResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictResponseParser.swift; sourceTree = "<group>"; };
+		377570A6263EF32A0089BDA5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		37760637263D8C8200A3E55F /* BookMyVaccine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMyVaccine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3776063A263D8C8200A3E55F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3776063C263D8C8300A3E55F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +63,13 @@
 		3776065E263D9A7200A3E55F /* AppointmentNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentNotifier.swift; sourceTree = "<group>"; };
 		37760662263D9BF300A3E55F /* AppointmentCentre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentCentre.swift; sourceTree = "<group>"; };
 		378913D4263DA68100D66A92 /* Response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Response.json; sourceTree = "<group>"; };
-		378913D7263DAAB200D66A92 /* CralwerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CralwerConfig.swift; sourceTree = "<group>"; };
-		378913DD263DB27B00D66A92 /* NotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDelegate.swift; sourceTree = "<group>"; };
+		378913D7263DAAB200D66A92 /* APIParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIParams.swift; sourceTree = "<group>"; };
+		378913E6263DC19D00D66A92 /* ChildViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewcontroller.swift; sourceTree = "<group>"; };
+		378913EA263DC1B100D66A92 /* customView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customView.swift; sourceTree = "<group>"; };
+		3789140C263DDEE200D66A92 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		37891413263DE65F00D66A92 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		37891418263DEB2C00D66A92 /* PreferenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceManager.swift; sourceTree = "<group>"; };
+		3789141B263E002700D66A92 /* AlarmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +83,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37757091263E432E0089BDA5 /* SearchByDistrict */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SearchByDistrict;
+			sourceTree = "<group>";
+		};
+		377570A5263EF31F0089BDA5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				377570A6263EF32A0089BDA5 /* Extensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		3776062E263D8C8200A3E55F = {
 			isa = PBXGroup;
 			children = (
@@ -76,10 +117,11 @@
 		37760639263D8C8200A3E55F /* BookMyVaccine */ = {
 			isa = PBXGroup;
 			children = (
+				37891412263DE64A00D66A92 /* Scenes */,
+				378913E5263DC19C00D66A92 /* Views */,
 				37760665263DA33B00A3E55F /* Core Files */,
 				3776063A263D8C8200A3E55F /* AppDelegate.swift */,
 				3776063C263D8C8300A3E55F /* SceneDelegate.swift */,
-				3776063E263D8C8300A3E55F /* ViewController.swift */,
 				37760640263D8C8300A3E55F /* Main.storyboard */,
 				37760643263D8CA600A3E55F /* Assets.xcassets */,
 				37760645263D8CA600A3E55F /* LaunchScreen.storyboard */,
@@ -92,13 +134,14 @@
 		37760665263DA33B00A3E55F /* Core Files */ = {
 			isa = PBXGroup;
 			children = (
+				377570A5263EF31F0089BDA5 /* Common */,
 				37760669263DA38300A3E55F /* Appointment Centre */,
 				37760667263DA38300A3E55F /* Model */,
 				37760668263DA38300A3E55F /* Network */,
 				3776066A263DA38400A3E55F /* Notifier */,
 				37760666263DA38300A3E55F /* Parser */,
 				3776066B263DA38400A3E55F /* Validation */,
-				378913DD263DB27B00D66A92 /* NotificationDelegate.swift */,
+				37891418263DEB2C00D66A92 /* PreferenceManager.swift */,
 			);
 			path = "Core Files";
 			sourceTree = "<group>";
@@ -107,6 +150,9 @@
 			isa = PBXGroup;
 			children = (
 				37760655263D920300A3E55F /* AppointmentResponseParser.swift */,
+				37757092263E43620089BDA5 /* StateResponseParser.swift */,
+				37757096263E44080089BDA5 /* Parseable.swift */,
+				377570A2263E547D0089BDA5 /* DistrictResponseParser.swift */,
 			);
 			path = Parser;
 			sourceTree = "<group>";
@@ -115,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				37760652263D8F7800A3E55F /* Model.swift */,
+				3775708E263E42AA0089BDA5 /* States.swift */,
+				3775709F263E54180089BDA5 /* District.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -122,7 +170,10 @@
 		37760668263DA38300A3E55F /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				378913D7263DAAB200D66A92 /* APIParams.swift */,
 				3776065B263D983A00A3E55F /* ApiClient.swift */,
+				37757099263E44B50089BDA5 /* LocationAPIClient.swift */,
+				3775709C263E44C90089BDA5 /* GenericNetworkClient.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -132,7 +183,7 @@
 			children = (
 				3776064F263D8DE500A3E55F /* TimerScheduler.swift */,
 				37760662263D9BF300A3E55F /* AppointmentCentre.swift */,
-				378913D7263DAAB200D66A92 /* CralwerConfig.swift */,
+				3789140C263DDEE200D66A92 /* Constants.swift */,
 			);
 			path = "Appointment Centre";
 			sourceTree = "<group>";
@@ -141,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				3776065E263D9A7200A3E55F /* AppointmentNotifier.swift */,
+				3789141B263E002700D66A92 /* AlarmController.swift */,
 			);
 			path = Notifier;
 			sourceTree = "<group>";
@@ -151,6 +203,25 @@
 				37760658263D929200A3E55F /* AppointmentValidtor.swift */,
 			);
 			path = Validation;
+			sourceTree = "<group>";
+		};
+		378913E5263DC19C00D66A92 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				378913E6263DC19D00D66A92 /* ChildViewcontroller.swift */,
+				378913EA263DC1B100D66A92 /* customView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		37891412263DE64A00D66A92 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				37757091263E432E0089BDA5 /* SearchByDistrict */,
+				37891413263DE65F00D66A92 /* ConfigViewController.swift */,
+				3776063E263D8C8300A3E55F /* ViewController.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,16 +296,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				37760663263D9BF300A3E55F /* AppointmentCentre.swift in Sources */,
-				378913D8263DAAB200D66A92 /* CralwerConfig.swift in Sources */,
+				377570A3263E547D0089BDA5 /* DistrictResponseParser.swift in Sources */,
+				3775709D263E44C90089BDA5 /* GenericNetworkClient.swift in Sources */,
+				378913D8263DAAB200D66A92 /* APIParams.swift in Sources */,
 				37760653263D8F7800A3E55F /* Model.swift in Sources */,
 				3776063F263D8C8300A3E55F /* ViewController.swift in Sources */,
 				3776063B263D8C8200A3E55F /* AppDelegate.swift in Sources */,
+				3775709A263E44B50089BDA5 /* LocationAPIClient.swift in Sources */,
+				378913EB263DC1B100D66A92 /* customView.swift in Sources */,
 				3776065F263D9A7200A3E55F /* AppointmentNotifier.swift in Sources */,
 				3776065C263D983A00A3E55F /* ApiClient.swift in Sources */,
-				378913DE263DB27B00D66A92 /* NotificationDelegate.swift in Sources */,
+				37891414263DE65F00D66A92 /* ConfigViewController.swift in Sources */,
+				37757097263E44080089BDA5 /* Parseable.swift in Sources */,
 				37760659263D929200A3E55F /* AppointmentValidtor.swift in Sources */,
 				3776063D263D8C8300A3E55F /* SceneDelegate.swift in Sources */,
 				37760650263D8DE500A3E55F /* TimerScheduler.swift in Sources */,
+				37757093263E43620089BDA5 /* StateResponseParser.swift in Sources */,
+				3789141C263E002700D66A92 /* AlarmController.swift in Sources */,
+				37891419263DEB2C00D66A92 /* PreferenceManager.swift in Sources */,
+				377570A0263E54180089BDA5 /* District.swift in Sources */,
+				377570A7263EF32A0089BDA5 /* Extensions.swift in Sources */,
+				3789140D263DDEE200D66A92 /* Constants.swift in Sources */,
+				3775708F263E42AA0089BDA5 /* States.swift in Sources */,
+				378913E7263DC19D00D66A92 /* ChildViewcontroller.swift in Sources */,
 				37760656263D920300A3E55F /* AppointmentResponseParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,16 +466,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = B4X8EQS24E;
 				INFOPLIST_FILE = BookMyVaccine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vrat28.BookMyVaccine;
+				PRODUCT_BUNDLE_IDENTIFIER = to.talk.goto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development to.talk.goto";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -402,16 +487,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = B4X8EQS24E;
 				INFOPLIST_FILE = BookMyVaccine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vrat28.BookMyVaccine;
+				PRODUCT_BUNDLE_IDENTIFIER = to.talk.goto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development to.talk.goto";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
